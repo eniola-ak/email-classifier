@@ -1,0 +1,22 @@
+cat > .gitignore <<EOL
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+
+# Model outputs
+models/
+
+# Raw data
+data/raw/
+
+# Secrets
+.env
+client_secret.json
+token.json
+.ipynb_checkpoints/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+EOL

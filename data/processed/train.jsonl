@@ -1,0 +1,6 @@
+{"text":"I was charged twice for my subscription. Please refund.","label":"billing"}
+{"text":"What documents do I need to verify my account?","label":"kyc"}
+{"text":"My card was used in a store I never visited.","label":"fraud_report"}
+{"text":"Is this beneficiary on any OFAC sanctions list?","label":"sanctions"}
+{"text":"The app crashes when I try to pay.","label":"tech_support"}
+{"text":"Thank you for your help earlier.","label":"general"}
