@@ -1,10 +1,4 @@
 cat > .gitignore <<EOL
-# Virtual environment
-.venv/
-
-# Python cache
-__pycache__/
-
 # Model outputs
 models/
 
@@ -20,3 +14,32 @@ token.json
 # Jupyter checkpoints
 .ipynb_checkpoints/
 EOL
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.env
+
+# === Flask session data ===
+instance/
+flask_session/
+
+# === Credentials ===
+token.json
+client_secret.json
+.env
+
+# === VSCode ===
+.vscode/
+
+# === Virtualenv ===
+.venv/
+env/
+ENV/
+venv/
+
+# === Mac system files ===
+.DS_Store
