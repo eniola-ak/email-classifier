@@ -71,9 +71,9 @@ starlette==0.48.0
 sympy==1.13.3
 threadpoolctl==3.6.0
 tokenizers==0.22.0
-torch==2.1.2
+torch==2.0.1
 tqdm==4.67.1
-transformers==4.56.1
+transformers==4.35.2
 typing-inspection==0.4.1
 typing_extensions==4.12.2
 tzdata==2025.2
